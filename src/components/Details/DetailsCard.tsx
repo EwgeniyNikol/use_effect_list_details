@@ -1,4 +1,4 @@
-import type { UserDetails } from '@/types'
+import type { UserDetails } from '../../types'
 import styles from './Details.module.css'
 
 interface DetailsCardProps {

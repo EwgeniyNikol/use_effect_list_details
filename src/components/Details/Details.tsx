@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { UserDetails } from '@/types'
+import type { UserDetails } from '../../types'
 import DetailsEmpty from './DetailsEmpty'
 import DetailsError from './DetailsError'
 import DetailsSkeleton from './DetailsSkeleton'

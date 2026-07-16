@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react'
-import type { User } from '@/types'
+import type { User } from '../../types'
 import SearchInput from './SearchInput'
 import ListItem from './ListItem'
 import styles from './List.module.css'
