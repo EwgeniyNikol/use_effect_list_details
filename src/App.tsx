@@ -26,7 +26,7 @@ function App() {
   }, [darkMode])
 
   const handleSelect = useCallback((id: number, name: string) => {
-    setSelectedUser(prev => {
+    setSelectedUser((prev: User | null) => {
       if (prev?.id === id) return prev
       return { id, name }
     })
@@ -40,7 +40,7 @@ function App() {
     }
   }, [firstLoad])
 
-  const toggleDarkMode = () => setDarkMode(prev => !prev)
+  const toggleDarkMode = () => setDarkMode((prev: boolean) => !prev)
   const handleBack = () => setShowDetails(false)
 
   return (
